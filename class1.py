@@ -1,5 +1,4 @@
 class Awesome:
-
     def the_first(self):
         print("this is the first function in the class awesome")
 
@@ -7,6 +6,11 @@ class Awesome:
         print("and this is my second function in the class awesome")
 
 
-nice = Awesome()
-nice.the_first()
-nice.the_second()
+def main():
+    nice = Awesome()
+    nice.the_first()
+    nice.the_second()
+
+
+if __name__ == "__main__":
+    main()
