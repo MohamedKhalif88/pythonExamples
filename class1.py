@@ -1,4 +1,8 @@
 class Awesome:
+
+    def __init__(self):
+        print("this is a constructor method")
+
     def the_first(self):
         print("this is the first function in the class awesome")
 
