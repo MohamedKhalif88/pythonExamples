@@ -1,4 +1,6 @@
 class Fruits:
+    other_fruits = "these are some other important fruits: pawpaw, berries, bananas"
+
     def __init__(self, fruit1, fruit2):
         self.fruit1 = fruit1
         self.fruit2 = fruit2
@@ -20,6 +22,7 @@ def main():
     awesomeness.orange()
     awesomeness.mango()
     awesomeness.exercise()
+    print(awesomeness.other_fruits)
 
 
 if __name__ == "__main__":
