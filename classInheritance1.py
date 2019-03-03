@@ -11,13 +11,15 @@ class Fruits:
 
 
 class Health(Fruits):
-    pass
+    def exercise(self):
+        print(f"to have a good health one has to exercise regularly and eat a {self.fruit1} and an {self.fruit2} every morning")
 
 
 def main():
     awesomeness = Health("Mango", "Orange")
     awesomeness.orange()
     awesomeness.mango()
+    awesomeness.exercise()
 
 
 if __name__ == "__main__":
