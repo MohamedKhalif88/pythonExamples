@@ -4,7 +4,7 @@ class Fruits:
         self.fruit2 = fruit2
 
     def mango(self):
-        print(self.fruit1, " is one the delicious fruits in the world")
+        print(self.fruit1, " is one of the delicious fruits in the world")
 
     def orange(self):
         print(self.fruit2, " is the packed with vitamin C")
@@ -17,6 +17,7 @@ class Health(Fruits):
 def main():
     awesomeness = Health("Mango", "Orange")
     awesomeness.orange()
+    awesomeness.mango()
 
 
 if __name__ == "__main__":
