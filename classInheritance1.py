@@ -20,6 +20,18 @@ class Health(Fruits):
         print("a person should also sleep well for good health")
 
 
+class Gym(Fruits):
+    def __init__(self,fruit1, fruit2,  fruit3, fruit4):
+        self.fruit1 = fruit1
+        self.fruit2 = fruit2
+        self.fruit3 = fruit3
+        self.fruit4 = fruit4
+
+    def waider(self):
+        print(f"to increase your bone density take 3 {self.fruit3} and 3 {self.fruit4} "
+              f"every morning after exercising")
+
+
 def main():
     awesomeness = Health("Mango", "Orange")
     awesomeness.orange()
@@ -27,6 +39,9 @@ def main():
     awesomeness.exercise()
     print(awesomeness.other_fruits)
     awesomeness.sleep()
+    wyd = Gym("Blue berry", "orange", "Bananas", "Passions")
+    wyd.waider()
+    wyd.mango()
 
 
 if __name__ == "__main__":
