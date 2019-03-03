@@ -17,7 +17,7 @@ class Health(Fruits):
         print(f"to have a good health one has to exercise regularly and eat a {self.fruit1} and an {self.fruit2} every morning")
 
     def sleep(self):
-        print("a person should also sleep well for better health")
+        print("a person should also sleep well for good health")
 
 
 def main():
