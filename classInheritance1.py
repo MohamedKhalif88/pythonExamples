@@ -16,6 +16,9 @@ class Health(Fruits):
     def exercise(self):
         print(f"to have a good health one has to exercise regularly and eat a {self.fruit1} and an {self.fruit2} every morning")
 
+    def sleep(self):
+        print("a person should also sleep well for better health")
+
 
 def main():
     awesomeness = Health("Mango", "Orange")
@@ -23,6 +26,7 @@ def main():
     awesomeness.mango()
     awesomeness.exercise()
     print(awesomeness.other_fruits)
+    awesomeness.sleep()
 
 
 if __name__ == "__main__":
