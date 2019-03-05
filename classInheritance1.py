@@ -27,7 +27,7 @@ class Gym(Fruits):
         self.fruit3 = fruit3
         self.fruit4 = fruit4
 
-    def waider(self):
+    def wyder(self):
         print(f"to increase your bone density take 3 {self.fruit3} and 3 {self.fruit4} "
               f"every morning after exercising")
 
@@ -40,7 +40,7 @@ def main():
     print(awesomeness.other_fruits)
     awesomeness.sleep()
     wyd = Gym("Blue berry", "orange", "Bananas", "Passions")
-    wyd.waider()
+    wyd.wyder()
     wyd.mango()
 
 
