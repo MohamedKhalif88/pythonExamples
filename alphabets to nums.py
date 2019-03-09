@@ -3,6 +3,7 @@ import string
 print('write a string of letters here: ')
 inputLetter = input('--> ')
 list1 = []
+list2 = []
 
 
 def alphabet_position():
@@ -26,5 +27,6 @@ for i in result1:
     sum = 0
     for num in list1:
         sum += num
+
 print(sum)
 
